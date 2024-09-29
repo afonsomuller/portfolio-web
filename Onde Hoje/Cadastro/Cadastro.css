@@ -1,0 +1,184 @@
+html{
+    width: 100%vh;
+    height: 100vh;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%; height: 100%;
+    font-family: "koulen";
+}
+
+label{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.input-field{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Kulim Park';
+    text-align: left;
+}
+
+p {
+    font-size: 170%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-weight: 530;
+    font-family: "koulen";
+
+}
+.container{
+    width: 550px; height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid #17232b;
+    
+}
+
+.name{
+    font-size: 70%;
+    width: 230px; height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.born{
+    font-size: 70%;
+    width: 230px; height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user{
+    font-size: 70%;
+    width: 230px; height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.password{
+    font-size: 70%;
+    width: 230px; height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-family: 'kulim park';
+}
+
+.email{
+    height: 26px;
+    border-radius: 400px;
+    background-color: rgb(21, 33, 40);
+    border: 0;
+    padding: 0% 7%;
+    height: 30px;
+    color: white;
+    font-family: 'kulim park';
+}
+
+.senha{
+    height: 28px;
+    border-radius: 400px;
+    background-color: rgb(21, 33, 40);
+    border: 0;
+    padding: 0% 7%;
+    height: 30px;
+    color: white;
+}
+
+.nome{
+    height: 40px;
+    border-radius: 400px;
+    background-color: rgb(21, 33, 40);
+    border: 0;
+    padding: 0% 7%;
+    height: 30px;
+    color: white;
+    font-family: 'kulim park';
+}
+
+.nascimento{
+    height: 28px;
+    border-radius: 400px;
+    background-color: rgb(21, 33, 40);
+    border: 0;
+    padding: 0% 7%;
+    height: 30px;
+    font-family: 'kulim park';
+    color: rgb(181, 181, 181);
+}
+
+input::placeholder {
+    color: white;
+  }
+
+
+.botao{
+    float:inline-start;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 400px;
+    margin-right: 100px;
+    display: flex;
+    width: 110px; height: 33px;
+    border: 0px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    
+}
+
+.botao:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+.botao::selection{
+    border-color:  rgb(63, 63, 63);
+}
+
+.botao:active{
+    background-color: rgb(84, 84, 84);
+}
+
+.botao2{    
+    float: inline-end;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 400px;
+    display: flex;
+    width: 110px; height: 33px;
+    border: 0px;
+    color: white;
+    background-color: rgb(93, 93, 93);
+    margin-bottom: 40px;
+}
+
+.botao2:hover{
+    background-color: rgb(109, 109, 109);
+}
+
+.botao2::selection{
+    border-color:  rgb(117, 117, 117);
+}
+
+.botao2:active{
+    background-color: rgb(128, 128, 128);
+}

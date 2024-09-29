@@ -1,0 +1,287 @@
+html{
+    /* height: 100vh;
+    width: 100%; */
+    padding: 0%;
+    background-color: black;
+    color:white;
+}
+body{
+    display: block;
+    padding: 0%;
+}
+*{
+    color: #fff;
+    font-family: Koulen;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+    background-color: rgba(32,44,51,0.3);
+}
+.barra-pesquisa {
+    display: flex;
+    width: 462px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #2b4250;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+.texto-barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    font-size: 22px;
+    color: #021a27;
+    background-color: #2b4250;
+    height: 50px;
+    width: 462px;
+    border: #2b4250;
+    border-radius: 30px;
+}
+.icone{
+    padding: 10px;
+}
+.titulo-home{
+    width: 220px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.lupinha{
+    margin: 10px;
+    height: 35px;
+}
+.notification-icon{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    background-color: #2b4250;
+    border-radius: 50%;
+    justify-content: right;
+}
+.profile-picture-header{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #2b4250;
+    display: flex;
+}
+.euzinho{
+    border-radius: 50%;
+}
+.parte-lateral{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: right;
+}
+aside{
+    margin: 0%;
+    padding: 0%;
+    width: 220px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(32,44,51,0.2);
+}
+ul{
+    margin: 0%;
+    padding: 0;
+}
+.seu-perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    background-color: rgba(32,44,51,0.55);
+    width: 220px;
+    height: 70px;
+}
+.profile-picture-aside{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #2b4250;
+    display: flex;
+    margin-left: 10px;
+}
+.texto-perfil{
+    display: flex;
+    font-size: 30px;
+    width: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+.proximo-a-mim{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.alfinete{
+    padding-left: 12px;
+}
+.proximo-texto{
+    padding: 18px;
+    font-size: 20px;
+}
+.avalie{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.estrelinha{
+    padding: 25px;
+}
+.avalie-texto{
+    font-size: 20px;
+}
+.top-roles{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.foguinho{
+    padding: 25px;
+}
+.top-roles-texto{
+    font-size: 20px;
+}
+.mensagens{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.envelopinho{
+    padding: 25px;
+}
+.mensagens-texto{
+    font-size: 20px;
+}
+.configuracoes{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.engrenagem{
+    padding: 25px;
+}
+.configuracoes-texto{
+    font-size: 20px;
+}
+.ajuda{
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 200px;
+}
+.texto-ajuda{
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 17px;
+}
+.corpo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.corpo-site{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-roles-corpo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.texto-top-roles{
+    margin: 0;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.foguinho-corpo{
+    margin-top: 8px;
+}
+.avaliacao-mapa{
+    display: flex;
+    flex-direction: row;
+}
+.avaliacao{
+    border: 2px solid #2b4250;
+    width: 300px;
+    height: 400px;
+    margin-right: 60px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    
+}
+.lista-locais{
+    font-family: "Kulim Park", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.estrelinha-corpo{
+    margin-top: -25px;
+}
+hr{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recuperar senha</title>
+        <link rel="stylesheet" href="Senha.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    </head>
+    <header>
+    <div>
+        <p class="tituloheader">ONDE HOJE?</p>
+    </div>
+    <div class="entre" onclick="window.location.href='/Onde%20Hoje/Login/Login.html'">
+        <p>Entre</p>
+        
+    </div>
+    <div class="cadastro" onclick="window.location.href='/Onde%20Hoje/Cadastro/Cadastro.html'">
+        <p>Cadastre-se</p>
+    </div>
+    </header>
+    <body>
+    <div class="container">
+        <p class="ondehoje">Esqueci a senha</p>
+        <form id="form"> 
+            <div class="input-field">
+                <div class="user">
+                    <input class= 'email' type="email" placeholder="Telefone, usuário ou e-mail" name="email" id="email">
+                </div>
+                <div class="titulo">
+                    <p>Enviaremos um link de redefinição de senha para a conta associada.</p>
+                </div>
+            </div>
+            <input class="botao" type="button" value="Voltar" onclick="window.location.href='/Onde%20Hoje/Login/Login.html'"></input>
+            <input class="botao2" type="submit" value="Enviar link"></input>
+        </form>
+    </div>
+    <script src="Senha.js"></script>
+</body>
+</html>
+
+

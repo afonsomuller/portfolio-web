@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identidade</title>
+    <link rel="stylesheet" href="Verificação.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: black;">
+    <div class="corpo" style"border: 2px solid black;">
+        <div class="centromenu" style"border: 2px solid rgb(0, 0, 0);" >
+            <div class="menu" style="background-color: #202c334d;">
+                <h1 style="background-color: transparent; width: 331px; height: 62px; color: white; font-size: 50px; font-family: 'Koulen', sans-serif;
+                font-weight: 400;
+                font-style: normal; margin-left: 40px; font-weight: bold;"> ONDE HOJE? </h1>
+                <button style="background-color: transparent; width: 122px; height: 45px; color: white; font-size: 40px; border: none; ; margin-right: 40px; font-weight: bold; cursor: pointer;"> Entre </button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container" style="border: 2px solid #2b4250; border-radius: 30px;">
+            <h1 style="font-size: 60px; font-family: 'Koulen', sans-serif;
+            font-weight: 400;
+            font-style: normal; font-weight: bold;">Vincule seus dados</h1>
+            <br>
+            <br>
+            <form id="form">
+                <div class="input-field"  style="border: 2px solid rgb(0, 0, 0); width: 700px; height: 400px;">
+                    <div class="user" style="border: 2px solid black;">
+                        <label style="font-size: 30px">RG ou CNH</label><br>
+                        <div class="teste"> 
+                            <input type="text" name="doc" id="doc" style="width: 433px; height: 60px; border-radius: 50px;background-color: #2b4250; border: none; font-size: 30px; padding-left: 15px;">
+                            <input type="file" id="rg_cnh_file" style="display: none;">
+                            <button type="button" onclick="document.getElementById('rg_cnh_file').click();" style="color: black;width: 117px; height:  60px; border-radius: 50px;background-color: #2b4250; font-size: 40px; border: none; color: white; font-weight: bold; cursor: pointer;">+</button> 
+                        </div>
+                        <br>
+                    </div>
+                    <div class="password" style="border: 2px solid black;">
+                        <label style="font-size: 30px">CPF</label> <br>
+                        <div class="certo">
+                            <input type="text" name="cpf" id="cpf" style="width: 433px; height: 60px; border-radius: 50px; background-color: #2b4250; border: none; ; font-size: 30px; padding-left: 15px;">
+                            <input type="file" id="cpf_file" style="display: none;">
+                        <button type="button" onclick="document.getElementById('cpf_file').click();" style="color: black;width: 117px; height:  60px; border-radius: 50px;background-color: #2b4250; font-size: 40px; border: none; ; color: white; font-weight: bold; cursor: pointer;">+</button>
+                        </div>
+                    </div> 
+                    <div class="frase" style="border: 2px solid rgb(0, 0, 0);">
+                        <br>
+                        <br>
+                        <h3 style="font-size: 30px;"> Use a opção "+" para fazer upload do documento.</h3>
+                        <br>
+                    </div>    
+                    <div class="buttons">
+                        <a href="https://www.facebook.com" target="_blank"><img src="facebook.webp" alt="Facebook" style="background-color: black; width: 130px; height: 100px;"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="certo" alt="Instagram" style="background-color: black; width: 130px; height: 100px;"></a>
+                        <a href="https://twitter.com" target="_blank"><img src="X.webp" alt="Twitter" style="background-color: black; width: 130px; height: 90px;"></a>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="baixo" style="border: 2px solid black;">
+                <input type="submit" value="Voltar" onclick="window.location.href='/Onde%20Hoje/Cadastro/Cadastro.html'" style="width: 284px; height: 91px; border-radius: 50px; background-color: #363636; font-size: 40px; border: none; ; font-weight: bold; cursor: pointer;">
+                <input type="submit" value="Continuar" style="width: 284px; height: 91px; border-radius: 50px; background-color: #bababa; font-size: 40px; border: none; ; font-weight: bold; cursor: pointer;">
+                </div>
+            </form>
+        </div>
+        <br>
+        <br>
+        <button style="font-size: 24px; background-color: black; color: white; border: none; ; margin-bottom: 40px; margin-right: 1000px; cursor: pointer;"> Precisa de ajuda? </button>
+    </div>
+    <script src="Verificação.js"></script>
+</body>
+</html>

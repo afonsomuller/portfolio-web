@@ -1,0 +1,176 @@
+html{
+    width: 100%vh;
+    height: 100vh;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%; height: 100%;
+    font-family: "koulen";
+}
+
+.input-field{
+    margin-right: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ondehoje {
+    font-size: 170%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-weight: 530;
+    font-family: "koulen";
+
+}
+.container{
+    width: 470px; height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid #17232b;
+    
+}
+
+.user{
+    font-size: 70%;
+    width: 200px; height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    width: 230px;
+    border-radius: 400px;
+    background-color: rgb(21, 33, 40);
+    border: 0;
+    padding: 0% 7%;
+    height: 37px;
+    color: white;
+    font-family: 'kulim park';
+}
+
+.password{
+    font-size: 70%;
+    color:rgb(123, 109, 113);
+    width: 200px; height: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.senha{
+    width: 230px;
+    border-radius: 400px;
+    background-color: rgb(21, 33, 40);
+    border: 0;
+    padding: 0% 7%;
+    height: 37px;
+    color: white;
+    font-family: 'kulim park';
+}
+
+input::placeholder {
+    color: white;
+  }
+
+
+.botao{
+    float:inline-start;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 400px;
+    display: flex;
+    margin-right: 50px;
+    width: 110px; height: 33px;
+    border: 0px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+
+.botao2{    
+    float: inline-end;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 400px;
+    display: flex;
+    margin-left: 50px;
+    width: 110px; height: 33px;
+    border: 0px;
+    color: white;
+    background-color: rgb(93, 93, 93);
+    margin-bottom: 40px;
+}
+
+.titulo{
+    width: 200px;
+    height: 37px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-left: 5%;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 90%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Kulim Park';
+}
+
+a:link {
+    color: white;
+ }
+
+ a:visited {
+    color: white;
+ }
+
+ a:hover {
+    color: white;
+ }
+
+ a:active {
+    color: white;
+ }
+
+ 
+.botao:hover{
+    background-color: rgb(46, 46, 46);
+}
+
+.botao::selection{
+    background-color: rgb(62, 62, 62);
+}
+
+.botao:active{
+    background-color: rgb(82, 82, 82);
+}
+
+.botao2:hover{
+    background-color: rgb(105, 105, 105);
+}
+
+.botao2::selection{
+    background-color: rgb(117, 117, 117);
+}
+
+.botao2:active{
+    background-color: rgb(122, 122, 122);
+}

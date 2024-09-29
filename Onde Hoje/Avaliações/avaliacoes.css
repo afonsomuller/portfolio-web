@@ -1,0 +1,379 @@
+html{
+    margin: 0;
+    background-color: black;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+    background-color: rgba(32,44,51,0.3);
+    
+}
+aside{
+    margin: 0%;
+    padding: 0%;
+    width: 220px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(32,44,51,0.2);
+}
+ul{
+    margin: 0%;
+    padding: 0;
+}
+*{
+    color: #fff;
+    font-family: Koulen;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.titulo{
+    width: 230px;
+    display: flex;
+    justify-content: center;
+}
+.barra-pesquisa {
+    display: flex;
+    width: 462px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #2b4250;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+.texto-barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    font-size: 22px;
+    color: #021a27;
+    background-color: #2b4250;
+    height: 50px;
+    width: 462px;
+    border: #2b4250;
+    border-radius: 30px;
+}
+.icone{
+    padding: 10px;
+}
+.titulo-home{
+    width: 220px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.lupinha{
+    margin: 10px;
+    height: 35px;
+}
+.notification-icon{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    background-color: #2b4250;
+    border-radius: 50%;
+    justify-content: right;
+}
+.profile-picture-header{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #2b4250;
+    display: flex;
+}
+.euzinho{
+    border-radius: 50%;
+}
+.parte-lateral{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: right;
+}
+.seu-perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    background-color: rgba(32,44,51,0.55);
+    width: 220px;
+    height: 70px;
+}
+.profile-picture-aside{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #2b4250;
+    display: flex;
+    margin-left: 10px;
+}
+.texto-perfil{
+    display: flex;
+    font-size: 30px;
+    width: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+.proximo-a-mim{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.alfinete{
+    padding-left: 12px;
+}
+.proximo-texto{
+    padding: 18px;
+    font-size: 20px;
+}
+.avalie{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.estrelinha{
+    padding: 25px;
+}
+.avalie-texto{
+    font-size: 20px;
+}
+.top-roles{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.foguinho{
+    padding: 25px;
+}
+.top-roles-texto{
+    font-size: 20px;
+}
+.mensagens{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.envelopinho{
+    padding: 25px;
+}
+.mensagens-texto{
+    font-size: 20px;
+}
+.configuracoes{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.engrenagem{
+    padding: 25px;
+}
+.configuracoes-texto{
+    font-size: 20px;
+}
+.ajuda{
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 200px;
+}
+.texto-ajuda{
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 17px;
+
+}
+.corpo{
+    display: flex;
+    flex-direction: row;
+}
+/*dddfcfdf*/
+
+*/
+
+.titulo{
+    width: 300px;
+    margin-left: 0px;
+    margin: 0px;
+}
+.titulo h2{
+    margin: 0px;
+    font-size: 30px;
+    padding-top: 0.2px;
+}
+
+.estabelecimentos{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.container-principal {
+    border-radius:20px;
+    border: 4px solid #2B4250;  
+    padding: 1px;
+    width: 860px;
+    height: 245px;
+    overflow: auto;
+}
+
+.hr-container{
+    border: 1px solid rgb(150, 148, 148);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 0.5%;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+}
+
+.container-item{
+    display: grid;
+    grid-template-columns: 67% 33%; 
+    gap: 1px; 
+    padding-left: 30px; 
+    height: 100px;     
+    
+}
+
+.container-item h3 {
+    font-family: 'Koulen';
+    font-size: 0.5em;
+}
+
+.container-item p {
+    font-family: "Kulim Park", sans-serif;
+    font-size: 0.4em;
+}
+
+.container-item-imagem-anuncio {
+    text-align:right;
+}
+
+.imagem-anuncio{
+    width: 120px;
+    height: auto;
+    padding: 25px;
+}
+
+.corpo-site{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-usuario-imagem{
+    width: 80px;
+    padding: 3px;
+    border-radius: 50%;
+    object-fit: cover; 
+    
+}
+
+.container-principal-usuario{
+    display: flex;   
+    border-radius:20px;
+    border: 4px solid #2B4250;  
+    padding: 1px;
+    width: 860px;
+    height: 220px;
+    overflow: auto;
+    margin-left: 20px;
+}
+
+.container-usuario {
+    display: flex;
+    flex-direction: column;            
+    padding: 10px;
+    margin-left: 10px;
+    width: 250px;
+    padding-left: 20px;
+}
+
+.container-usuario p{
+    font-family: "Kulim Park", sans-serif;
+    font-size: 0.4em;
+    text-align: top;
+    
+}
+
+.imagem-localizacao{
+    height: 18px;
+    width: 20px;
+}
+
+.top-section-usuario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 110px;
+    
+}
+.top-section-usuario img {
+    margin-right: 10px; 
+    margin-bottom: 0px; 
+    padding-bottom: 0px;
+}
+
+.bottom-section-usuario {
+    margin-left: 0px;     
+    height: 60px;
+    margin-top: 0px;
+    padding: 0px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.0em;
+    text-align: top;
+    line-height: 0.2;
+}
+
+.usuarios h2{
+    margin: 0px;
+    font-size: 30px;
+    padding-left: 35px;
+    padding-top: 10px;
+}    

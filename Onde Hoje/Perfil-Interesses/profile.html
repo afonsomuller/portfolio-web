@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <title>Perfil</title>
+</head>
+<body>
+    <header>
+        <div class="titulo-home">
+            <h3>Onde Hoje?</h3>
+        </div>
+        <div class="barra-pesquisa">
+            <img src="files/lupa.png" class="lupinha">
+            <input class="texto-barra" type="search" placeholder="Encontre pessoas e roles">
+        </div>
+        <div class="parte-lateral">
+            <div class="notification-icon">
+                <img src="files/sino.png" alt="">
+            </div>
+            <div class="profile-picture-header">
+                <img src="files/eu.jpg" class="euzinho">
+            </div>
+        </div>
+    </header>
+    <div class="corpo">
+        <ul type="none"">
+            <aside>
+                <li>
+                    <div class="seu-perfil">
+                        <div class="profile-picture-aside">
+                            <img src="files/eu.jpg" class="euzinho">
+                        </div>
+                        <h1 class="texto-perfil">Seu perfil</h1>
+                    </div>
+                </li>
+                <li>
+                    <div class="proximo-a-mim" onclick="window.location.href='/Onde%20Hoje/Nearly Places/nearlyPlaces.html'">
+                        <svg class="alfinete" width="22" height="28" viewBox="0 0 32 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M29 15.4C29 22.2484 16 34 16 34C16 34 3 22.2484 3 15.4C3 8.55167 8.82029 3 16 3C23.1797 3 29 8.55167 29 15.4Z" stroke="white" stroke-width="5.61136"/>
+                            <path d="M16 16.95C16.8975 16.95 17.625 16.2561 17.625 15.4C17.625 14.544 16.8975 13.85 16 13.85C15.1025 13.85 14.375 14.544 14.375 15.4C14.375 16.2561 15.1025 16.95 16 16.95Z" stroke="white" stroke-width="5.61136" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        <h4 class="proximo-texto">Proximo a mim</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="avalie" onclick="window.location.href='/Onde%20Hoje/Avaliações/avaliacoes.html'">
+                        <svg class="estrelinha" width="32" height="30" viewBox="0 0 42 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.516 12.8682L19.4513 2.95449C20.0848 1.68184 21.9152 1.68184 22.5487 2.95449L27.4839 12.8682L38.5208 14.4677C39.9369 14.6729 40.5012 16.3989 39.4762 17.3889L31.4912 25.1003L33.3756 35.9943C33.6177 37.3933 32.1366 38.4601 30.8695 37.7994L21 32.6531L11.1304 37.7994C9.86334 38.4601 8.38227 37.3933 8.62426 35.9943L10.5087 25.1003L2.52393 17.3889C1.49873 16.3989 2.06312 14.6729 3.47919 14.4677L14.516 12.8682Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        <h4 class="avalie-texto">Avalie</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="top-roles" onclick="window.location.href='/Onde%20Hoje/Nearly Places/nearlyPlaces.html'">
+                        <svg class="foguinho" width="30" height="35" viewBox="0 0 30 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.5 27.8333C8.5 31.9922 11.4101 33 15 33C21.1079 33 23.125 28.6945 19.0625 20.0833C13.375 27.8333 12.5625 15.7778 13.375 12.3333C10.9375 17.5 8.5 22.3527 8.5 27.8333Z" stroke="white" stroke-width="3.26559" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15 33C23.2054 33 28 27.998 28 19.4375C28 10.8771 15 2 15 2C15 2 2 10.8771 2 19.4375C2 27.998 6.79463 33 15 33Z" stroke="white" stroke-width="3.26559" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        <h4 class="top-roles-texto">Top roles</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="mensagens" onclick="window.location.href='/Onde%20Hoje/Contatos/contatos.html'">
+                        <svg class="envelopinho" width="27" height="22" viewBox="0 0 37 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.25 10L18.5 17L26.75 10" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 26V6C2 3.79086 3.47746 2 5.3 2H31.7C33.5226 2 35 3.79086 35 6V26C35 28.2092 33.5226 30 31.7 30H5.3C3.47746 30 2 28.2092 2 26Z" stroke="white" stroke-width="4"/>
+                            </svg>
+                        <h4 class="mensagens-texto">Mensagens</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="configuracoes" onclick="window.location.href='/Onde%20Hoje/Acessiblidade/acessibilidade.html'">
+                        <svg class="engrenagem" width="28" height="26" viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.8705 23.1C21.8315 23.1 24.2316 20.8168 24.2316 18C24.2316 15.1833 21.8315 12.9 18.8705 12.9C15.9095 12.9 13.5093 15.1833 13.5093 18C13.5093 20.8168 15.9095 23.1 18.8705 23.1Z" stroke="white" stroke-width="1.96302" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M32.4921 15.2722L30.5305 10.7662L33.1669 7.8L29.5928 4.4L26.4917 6.92102L21.6544 5.02856L20.5419 1H17.0495L15.9203 5.08192L11.1941 6.97713L8.1482 4.4L4.5741 7.8L7.17135 10.841L5.23978 15.3587L1 16.3V19.7L5.29091 20.8144L7.28282 25.3095L4.5741 28.2L8.1482 31.6L11.3491 29.1185L16.0059 30.9409L17.0835 35H20.6576L21.7378 30.9424L26.4746 29.0763C27.2641 29.6132 29.5928 31.6 29.5928 31.6L33.1669 28.2L30.5147 25.224L32.4769 20.7166L36.7408 19.6612L36.741 16.3L32.4921 15.2722Z" stroke="white" stroke-width="1.96302" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        <h4 class="configuracoes-texto">Configuracoes</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="ajuda">
+                        <p class="texto-ajuda">Precisa de ajuda?</p>
+                    </div>
+                </li>
+            </aside>
+        </ul>
+        <div class="corpo-site">
+            <div class="foto-perfil">
+                <img class="profile-picture-body" src="files/eu.jpg" alt="">
+            </div>
+            <div class="nome-perfil">
+                <h1 class="nome">AFONSO MULLER</h1>
+            </div>
+            <div class="bio-titulo">
+                <h1 class="texto-titulo">BIO</h1>
+            </div>
+            <div class="bio-campo">
+                <textarea class="bio-texto" wrap="hard" placeholder="Digite sua bio!"></textarea>
+            </div>
+            <div class="informacoes">
+                <p class="info-texto">24 anos | Ele / Dele</p>
+                <p class="info-texto">Namorando</p>
+                <p class="info-texto">Procurando Roles</p>
+            </div>
+            <div class="seus-interesses">
+                <h1>SEUS INTERESSES</h1>
+                <div class="campo-interesses">
+                    <div class="interesse">
+                        <p class="interesse-1-texto">#anime</p>
+                    </div>
+                    <div class="interesse">
+                        <p class="interesse-1-texto">#genshin</p>
+                    </div>
+                    <div class="interesse">
+                        <p class="interesse-1-texto">#pescaria</p>
+                    </div>
+                    <div class="interesse">
+                        <p class="interesse-1-texto">#cerveja</p>
+                    </div>
+                    <div class="interesse">
+                        <a href="interests.html" class="interesse-1-texto">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,318 @@
+html{
+    height: 100vh;
+    width: 100%;
+    padding: 0%;
+    background-color: black;
+    color:white;
+    
+}
+body{
+    display: block;
+    padding: 0%;
+    
+}
+*{
+    color: #fff;
+    font-family: Koulen;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100vw;
+    align-items: center;
+    background-color: rgba(32,44,51,0.3);
+}
+.barra-pesquisa {
+    display: flex;
+    width: 462px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #2b4250;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+.texto-barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    font-size: 22px;
+    color: #021a27;
+    background-color: #2b4250;
+    height: 50px;
+    width: 462px;
+    border: #2b4250;
+    border-radius: 30px;
+}
+.icone{
+    padding: 10px;
+}
+.titulo-home{
+    width: 220px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.lupinha{
+    margin: 10px;
+    height: 35px;
+}
+.notification-icon{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    background-color: #2b4250;
+    border-radius: 50%;
+    justify-content: right;
+}
+.profile-picture-header{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #2b4250;
+    display: flex;
+}
+.euzinho{
+    border-radius: 50%;
+}
+.parte-lateral{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: right;
+}
+.sidemenu {
+    margin: 0%;
+    padding: 0%;
+    width: 220px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(32,44,51,0.2);
+}
+ul {
+    margin: 0%;
+    padding: 0;
+}
+.seu-perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    background-color: rgba(32,44,51,0.55);
+    width: 220px;
+    height: 70px;
+}
+.profile-picture-aside{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #2b4250;
+    display: flex;
+    margin-left: 10px;
+}
+.texto-perfil{
+    display: flex;
+    font-size: 30px;
+    width: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+.proximo-a-mim{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.alfinete{
+    padding-left: 12px;
+}
+.proximo-texto{
+    padding: 18px;
+    font-size: 20px;
+}
+.avalie{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.estrelinha{
+    padding: 25px;
+}
+.avalie-texto{
+    font-size: 20px;
+}
+.top-roles{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.foguinho{
+    padding: 25px;
+}
+.top-roles-texto{
+    font-size: 20px;
+}
+.mensagens{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.envelopinho{
+    padding: 25px;
+}
+.mensagens-texto{
+    font-size: 20px;
+}
+.configuracoes{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 51px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.engrenagem{
+    padding: 25px;
+}
+.configuracoes-texto{
+    font-size: 20px;
+}
+.ajuda{
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 200px;
+}
+.texto-ajuda{
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 17px;
+}
+.corpo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#letras {
+    font-size: 25px;
+    margin: 0px;
+    font-family: "Kulim Park", sans-serif;
+}
+
+#inicar-conversa h1 {
+    /* border: 1px solid red; */
+    font-size: 45px;
+    font-family: "Kulim Park", sans-serif;
+    font-weight: bold;
+    margin-left: 8%;
+
+}
+
+.proximos {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 8%;
+}
+
+.chats {
+    /* border: 1px solid rgb(4, 199, 224); */
+    display: flex;
+    width: 100vw;
+    height: 1000vh;
+    flex-direction: column;
+    align-content: center;
+    /* transform: translate(-50%, -50%); */
+}
+
+#proximo {
+    border: 5px solid #202c33;
+    border-radius: 5%;
+    display: flex;
+    width: 505px;
+    height: 850px;
+    flex-direction: column;
+    top: 50px;
+    right:620px;
+    margin-right: 25px;
+}
+
+#proximo2 {
+    border: 5px solid #202c33;
+    border-radius: 5%;
+    display: flex;
+    width: 505px;
+    height: 850px;
+    flex-direction: column;
+    top: 150px;
+    right: 50px;
+}
+
+#proximos {
+    text-align: center;
+}
+
+#proximos2 {
+    text-align: center;
+    margin: 10px;
+    text-decoration-line: underline;
+    text-decoration-color:#2B4250;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    font-family: "Kulim Park", sans-serif;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    left: 2%;
+    padding: 30px;
+    padding-top: 60px;
+    margin-left: 3%;
+    height: 80px;
+    
+}
